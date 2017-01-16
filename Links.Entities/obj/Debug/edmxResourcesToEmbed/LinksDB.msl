@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LinksToSaveDBModelStoreContainer" CdmEntityContainer="LinksToSaveDBEntities1">
+    <EntitySetMapping Name="tblLinks">
+      <EntityTypeMapping TypeName="LinksToSaveDBModel.tblLinks">
+        <MappingFragment StoreEntitySet="tblLinks">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

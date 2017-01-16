@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Links.Web.UI", "Links.Web.UI\Links.Web.UI.csproj", "{11777528-A203-44C2-8721-00106EB7B784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Links.Entities", "Links.Entities\Links.Entities.csproj", "{DAA004FD-133F-4872-AA58-FDF711646042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11777528-A203-44C2-8721-00106EB7B784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11777528-A203-44C2-8721-00106EB7B784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11777528-A203-44C2-8721-00106EB7B784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11777528-A203-44C2-8721-00106EB7B784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA004FD-133F-4872-AA58-FDF711646042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA004FD-133F-4872-AA58-FDF711646042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA004FD-133F-4872-AA58-FDF711646042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA004FD-133F-4872-AA58-FDF711646042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

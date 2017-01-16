@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section FootScripts
+{
+    <script src="~/Scripts/app/pages/tasks/tasks.module.js"></script>
+    <script src="~/Scripts/app/pages/tasks/tasks.controller.js"></script>
+    <script src="~/Scripts/app/pages/tasks/tasks.service.js"></script>
+}
+<section ng-app="linksModule">
+    <h2>Tasks</h2>
+    
+    <div ng-controller="LinksController as c">   
+        
+        <div>
+            <input type="text" ng-model="c.newlinkName" placeholder="Enter a name" />
+            <input type="text" ng-model="c.newlinkPath" placeholder="Enter a path" />
+            <input type="text" ng-model="c.newlinkDescription" placeholder="Enter a description" />
+            <button ng-click="c.onAddNewLink()" ng-disabled="!(c.isNewLinkPathValid() && c.isNewLinkNameValid() && c.isNewLinkDescriptionValid())">Add</button> 
+        </div>
+          
+        <div>Tasks number: {{ c.links.length }}</div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Path</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="link in c.links">
+                        <td>{{ link.Id }}</td>
+                        <td>{{ link.Name }}</td>
+                        <td>{{ link.Path }}</td>
+                        <td>{{ link.Description }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

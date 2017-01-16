@@ -1,0 +1,9 @@
+F:\VSProgects\Links.Web.UI\Links.Entities\bin\Debug\Links.Entities.dll.config
+F:\VSProgects\Links.Web.UI\Links.Entities\bin\Debug\Links.Entities.dll
+F:\VSProgects\Links.Web.UI\Links.Entities\bin\Debug\Links.Entities.pdb
+F:\VSProgects\Links.Web.UI\Links.Entities\bin\Debug\EntityFramework.dll
+F:\VSProgects\Links.Web.UI\Links.Entities\bin\Debug\EntityFramework.SqlServer.dll
+F:\VSProgects\Links.Web.UI\Links.Entities\bin\Debug\EntityFramework.xml
+F:\VSProgects\Links.Web.UI\Links.Entities\bin\Debug\EntityFramework.SqlServer.xml
+F:\VSProgects\Links.Web.UI\Links.Entities\obj\Debug\Links.Entities.dll
+F:\VSProgects\Links.Web.UI\Links.Entities\obj\Debug\Links.Entities.pdb
